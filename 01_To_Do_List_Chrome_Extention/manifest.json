@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "ToDo_List",
+  "version": "0.0.1",
+  "action": {
+    "default_title": "To-Do list with description",
+    "default_popup": "index.html"
+  },
+  "description": "Add your daily To_Do's here and do this",
+  "icons": {
+    "128": "image/Positive_Anchor_logo.png"
+  }
+}

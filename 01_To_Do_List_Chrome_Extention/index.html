@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="This Chrome extension is a straightforward and user-friendly to-do list, allowing you to manage your tasks directly from your browser.">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="image/Positive_Anchor_logo.png">
+    <title>To-Do list with description</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="container">
+                <div class="inputContainer">
+                    <h1 class="primaryHeading">TO &mdash; DO's</h1>
+                    <div class="inputBox">
+                        <label class="inputTitle" for="title">Title</label>
+                        <input class="inputs" type="text" id="title" placeholder="Write To-do here..." autofocus>
+                    </div>
+                    <div class="inputBox">
+                        <label class="inputTitle" for="description">Description</label>
+                        <textarea class="inputs" id="description" placeholder="Write here about To-do..." rows="3"></textarea>
+                    </div>
+                    <div class=" buttons">
+                        <button class="btn btnAdd">Add to list</button>
+                        <button class="btn clearAll">Clear All</button>
+                    </div>
+                </div>
+                <div class="listContainer">
+                    <h2 class="secondaryHeading">Your To-do's</h2>
+                    <div class="listHeading grid-cols-4">
+                        <div>No.</div>
+                        <div>Item Title</div>
+                        <div>Item Description</div>
+                        <div>Action</div>
+                    </div>
+                    <ul class="listBox">
+                        <!--<li class="grid-cols-4">
+                            <p>1</p>
+                            <p>to do one</p>
+                            <p>this is a to do one</p>
+                            <p><button class="btn btnDel">Delete</button></p>
+                        </li>-->
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
