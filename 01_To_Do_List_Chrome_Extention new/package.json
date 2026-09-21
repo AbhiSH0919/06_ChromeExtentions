@@ -1,0 +1,11 @@
+{
+	"name": "to_do_list_chrome_extention",
+	"version": "0.1.1",
+	"description": "Add your daily To_Do's here and do this",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Abhi0919",
+	"license": "ISC"
+}

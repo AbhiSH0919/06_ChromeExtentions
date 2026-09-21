@@ -1,0 +1,17 @@
+{
+	"name": "simple_note_book_app",
+	"version": "0.1.1",
+	"description": "Add your daily notes here and read when they are needed",
+	"keywords": [
+		"note",
+		"book",
+		"notebook"
+	],
+	"license": "ISC",
+	"author": "Abhi0919",
+	"type": "commonjs",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	}
+}

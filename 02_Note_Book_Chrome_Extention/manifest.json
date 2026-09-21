@@ -1,0 +1,14 @@
+{
+	"manifest_version": 3,
+	"name": "Simple Note Book App",
+	"version": "0.1.1",
+	"action": {
+		"default_title": "Simple Note Book App",
+		"default_popup": "index.html"
+	},
+	"description": "Add your daily notes here and read when they are needed",
+	"icons": {
+		"128": "image/favicon.png",
+		"64": "image/favicon.png"
+	}
+}
