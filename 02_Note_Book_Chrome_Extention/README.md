@@ -1,4 +1,4 @@
-# 01 Simple To-Do List Chrome Extension
+# 02 Simple Note Book Chrome Extention
 
 This Chrome extension is a straightforward and user-friendly for short notes, allowing you to manage your notes directly from your browser.
 
